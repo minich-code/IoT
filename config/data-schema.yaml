@@ -1,0 +1,176 @@
+columns:
+  Flow ID:
+    type: string
+  Src IP:
+    type: string
+  Src Port:
+    type: integer
+  Dst IP:
+    type: string
+  Dst Port:
+    type: integer
+  Protocol:
+    type: integer
+  Timestamp:
+    type: string
+  Flow Duration:
+    type: integer
+  Total Fwd Packet:
+    type: integer
+  Total Bwd packets:
+    type: integer
+  Total Length of Fwd Packet:
+    type: float
+  Total Length of Bwd Packet:
+    type: float
+  Fwd Packet Length Max:
+    type: float
+  Fwd Packet Length Min:
+    type: float
+  Fwd Packet Length Mean:
+    type: float
+  Fwd Packet Length Std:
+    type: float
+  Bwd Packet Length Max:
+    type: float
+  Bwd Packet Length Min:
+    type: float
+  Bwd Packet Length Mean:
+    type: float
+  Bwd Packet Length Std:
+    type: float
+  Flow Bytes/s:
+    type: float
+  Flow Packets/s:
+    type: float
+  Flow IAT Mean:
+    type: float
+  Flow IAT Std:
+    type: float
+  Flow IAT Max:
+    type: float
+  Flow IAT Min:
+    type: float
+  Fwd IAT Total:
+    type: float
+  Fwd IAT Mean:
+    type: float
+  Fwd IAT Std:
+    type: float
+  Fwd IAT Max:
+    type: float
+  Fwd IAT Min:
+    type: float
+  Bwd IAT Total:
+    type: float
+  Bwd IAT Mean:
+    type: float
+  Bwd IAT Std:
+    type: float
+  Bwd IAT Max:
+    type: float
+  Bwd IAT Min:
+    type: float
+  Fwd PSH Flags:
+    type: integer
+  Bwd PSH Flags:
+    type: integer
+  Fwd URG Flags:
+    type: integer
+  Bwd URG Flags:
+    type: integer
+  Fwd Header Length:
+    type: integer
+  Bwd Header Length:
+    type: integer
+  Fwd Packets/s:
+    type: float
+  Bwd Packets/s:
+    type: float
+  Packet Length Min:
+    type: float
+  Packet Length Max:
+    type: float
+  Packet Length Mean:
+    type: float
+  Packet Length Std:
+    type: float
+  Packet Length Variance:
+    type: float
+  FIN Flag Count:
+    type: integer
+  SYN Flag Count:
+    type: integer
+  RST Flag Count:
+    type: integer
+  PSH Flag Count:
+    type: integer
+  ACK Flag Count:
+    type: integer
+  URG Flag Count:
+    type: integer
+  CWR Flag Count:
+    type: integer
+  ECE Flag Count:
+    type: integer
+  Down/Up Ratio:
+    type: float
+  Average Packet Size:
+    type: float
+  Fwd Segment Size Avg:
+    type: float
+  Bwd Segment Size Avg:
+    type: float
+  Fwd Bytes/Bulk Avg:
+    type: integer
+  Fwd Packet/Bulk Avg:
+    type: integer
+  Fwd Bulk Rate Avg:
+    type: integer
+  Bwd Bytes/Bulk Avg:
+    type: integer
+  Bwd Packet/Bulk Avg:
+    type: integer
+  Bwd Bulk Rate Avg:
+    type: integer
+  Subflow Fwd Packets:
+    type: integer
+  Subflow Fwd Bytes:
+    type: integer
+  Subflow Bwd Packets:
+    type: integer
+  Subflow Bwd Bytes:
+    type: integer
+  FWD Init Win Bytes:
+    type: integer
+  Bwd Init Win Bytes:
+    type: integer
+  Fwd Act Data Pkts:
+    type: integer
+  Fwd Seg Size Min:
+    type: integer
+  Active Mean:
+    type: float
+  Active Std:
+    type: float
+  Active Max:
+    type: float
+  Active Min:
+    type: float
+  Idle Mean:
+    type: float
+  Idle Std:
+    type: float
+  Idle Max:
+    type: float
+  Idle Min:
+    type: float
+  Label:
+    type: string
+  Connection Type:
+    type: string
+
+target_column:
+  name:
+    type: string
+    allowed: ["Label"]

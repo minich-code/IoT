@@ -6,6 +6,6 @@ data_ingestion:
   database_name: Network-IoT
   collection_name: intrusion-data
   batch_size: 26000
-  slack_webhook_url: https://hooks.slack.com/services/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
+  slack_webhook_url: https://hooks.slack.com/services/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
 
 
